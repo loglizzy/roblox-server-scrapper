@@ -1,5 +1,6 @@
 # roblox-server-scrapper
 Uses http requests of the roblox game api to list the currently servers of a game
+Just for learn, you can modify it to make what you want
 
 ## Dependencies
 ```
