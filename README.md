@@ -8,8 +8,9 @@ json
 requests
 ```
 
-## Checking if place exist
-I just used http request on the possible game page and verified if the status isn't `404`
+## Roblox/Place status
+I just used the http request on the roblox link and on the possible game page and checked that the status is not `404`
+
 
 ## Servers Pages
 So, when using the game API to get the servers, we can change the number of servers per page, with a maximum of 100, so if we want to get many servers, we will need to use the `nextPageCursor` that will be in the response to the request.
@@ -23,3 +24,5 @@ playing
 fps
 ping
 ```
+The server structure in the response.
+I must explain the `playing` one, so, before, it was the currently players in the server, with all their user ids, but now, with the massive increase in active roblox players, they have changed that, not only for the amount increase, but also for the stream snipers, that used the api to check every server in a game, and find some user id in the `playing`, so the playing is just the number of players
