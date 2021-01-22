@@ -3,9 +3,9 @@ Uses http requests of the roblox game api to list the currently servers of a gam
 
 # Dependencies
 ```
-import os
-import json
-import requests as req
+os
+json
+requests
 ```
 # API Response
 ```
