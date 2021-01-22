@@ -26,4 +26,4 @@ ping
 ```
 Here above, the server structure in the response.
 
-And i think i should explain the `playing` one, so, before, it was the currently players in the server, with all their user ids, but now, with the massive increase in active roblox players, they have changed that, not only for the amount increase, but also for the stream snipers, that used the api to check every server in a game, and find some user id in the `playing`, now it is just the players amount.
+And i think i should explain the `playing` one, so, before it was the currently players in the server, with all their user ids, but now, with the massive increase in active roblox players, they have changed that, not only for the amount increase, but also for the stream snipers, that used the api to check every server in a game, and find some user id in the `playing`, now it is just the players amount.
