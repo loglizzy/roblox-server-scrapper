@@ -9,7 +9,7 @@ requests
 ```
 
 ## Roblox/Place status
-I just used the http request on the roblox link and on the possible game page and checked that the status is not `404`
+I just used the http request on the roblox link and on the possible game page and checked that the status isn´t `404`
 
 
 ## Servers Pages
@@ -17,6 +17,7 @@ So, when using the game API to get the servers, we can change the number of serv
 You can test and see it by your self here https://games.roblox.com/docs#!/Games/get_v1_games_placeId_servers_serverType
 
 ## API Response
+Here bellow, the server structure that is gived in the response
 ```
 id
 maxPlayers
@@ -24,6 +25,5 @@ playing
 fps
 ping
 ```
-Here above, the server structure in the response.
 
-And i think i should explain the `playing` one, so, before it was the currently players in the server, with all their user ids, but now, with the massive increase in active roblox players, they have changed that, not only for the amount increase, but also for the stream snipers, that used the api to check every server in a game, and find some user id in the `playing`, now it is just the players amount.
+And I think I should explain the `playing`, so, before it was only the currently players in the server, with all their user IDs, but now, with the massive increase in the fame/players of the roblox, they changed it to patch the stream snipers, which they was using the api to search in each server of a game, a specific id in the `playing`, and then join in that server, then now it´s just the number of players.
