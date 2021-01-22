@@ -1,13 +1,13 @@
 # roblox-server-scrapper
 Uses http requests of the roblox game api to list the currently servers of a game
 
-## Dependencies
+### Dependencies
 ```
 os
 json
 requests
 ```
-## API Response
+### API Response
 ```
 id
 maxPlayers
