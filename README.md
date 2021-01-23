@@ -13,9 +13,6 @@ requests
 ## Important
 Just to clarify, there is no point in saying "server" / "server instance", as it is impossible to pay for each "server" in a roblox game, roblox probably uses one server to host like 100 "servers" in a roblox game, or something like that, but here i will keep saying "server" because it's really easier to understand.
 
-## Roblox/Place status
-I just used a http request on the roblox link and on the possible game page and checked that the status isn't `404`.
-
 ## Servers Pages
 So, when using the game API to get the servers, we can change the number of servers per page, with a maximum of 100, so if we want to get many servers, we will need to use the `nextPageCursor` that will be in the response to the request, to navigate page per page aplying the parameter `cursor` in the api `php` file link.
 You can test and see it by your self here -
