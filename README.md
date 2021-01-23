@@ -45,4 +45,5 @@ ping
   I don't have sure of it, because, it's a bit strange the server rendering the game, or something like that.
 
 `ping`
-  _hmm, i dont need to say_
+
+  _🤔_
