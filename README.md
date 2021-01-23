@@ -30,7 +30,7 @@ ping
 ```
 `id`
 
-  A unique ID for that server
+  A unique ID for that server (Job Id)
 
 `maxPlayers`
 
