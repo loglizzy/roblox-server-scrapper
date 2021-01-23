@@ -28,9 +28,11 @@ playing
 fps
 ping
 ```
-`id`: A unique ID for that game instance
+### id
+A unique ID for that game instance
 
-`maxPlayers`: Maximum players amount allowed in that server
+### maxPlayers
+Maximum players amount allowed in that server
 
 `playing`: So, Before it was only the currently players in the server, with all their user IDs, but now they changed it to patch the stream snipers, which they was using the api to search in each server of a game, a specific id in the `playing`, and then join in that server, then now it's just the number of players.
 
