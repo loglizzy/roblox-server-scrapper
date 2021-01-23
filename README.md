@@ -29,7 +29,8 @@ fps
 ping
 ```
 id
-  A unique ID for that game instance
+
+  A unique ID for that server
 
 ### maxPlayers
 Maximum players amount allowed in that server
