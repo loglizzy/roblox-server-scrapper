@@ -4,6 +4,7 @@ import requests as req
 
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
+cls()
 
 def main():
     listed_servers = 0
@@ -20,14 +21,17 @@ def main():
 
         data = servers['data']
         for server in data:
-            listed_servers += 1
-            listed_players += server['playing']
+            if listed_servers < max_servers:
+                listed_servers += 1
+                listed_players += server['playing']
 
-        print(f'Listed {listed_servers} servers')
+        cls()
+        print(f'{listed_servers}...')
         if servers['nextPageCursor']:
             cursor = f'&cursor={servers["nextPageCursor"]}'
         else:
             break
+    print(f'Finished with {listed_servers} servers and {listed_players} players')
 
 place_id = input('Game place id: ')
 max_servers = int(input('Max servers: '))
