@@ -26,7 +26,7 @@ def main():
                 listed_players += server['playing']
 
         cls()
-        print(f'{listed_servers}...')
+        print(f'{listed_servers} ...')
         if servers['nextPageCursor']:
             cursor = f'&cursor={servers["nextPageCursor"]}'
         else:
@@ -37,7 +37,7 @@ place_id = input('Game place id: ')
 max_servers = int(input('Max servers: '))
 cls()
 
-print('Checking roblox state...')
+print('Checking roblox...')
 response = req.get('https://roblox.com'); cls()
 cls()
 
@@ -47,6 +47,7 @@ if response.status_code == 200:
     cls()
 
     if response.status_code == 200:
+
         main()
     else:
         print("That place don't exist")
